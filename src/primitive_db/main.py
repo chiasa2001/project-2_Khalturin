@@ -1,2 +1,9 @@
+from .engine import run
+
 def main():
-    print("DB project is running!")
+    run()
+
+from primitive_db.engine import run
+
+if __name__ == "__main__":
+    run()
